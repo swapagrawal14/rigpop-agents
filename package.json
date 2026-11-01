@@ -43,7 +43,7 @@
     "characters",
     "fonts",
     "skills",
-    "examples"
+    "examples/*.md"
   ],
   "engines": {
     "node": ">=18"

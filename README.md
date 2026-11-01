@@ -19,8 +19,8 @@ gesturing, captioned 9:16 MP4. Free voices, bundled ffmpeg, no API keys, no brow
 Most agents can only hand you text or code. Give one this tool and it hands you a **finished video**: characters that talk in real voices, move their mouths to the audio, blink, wave and point on cue, with word-by-word captions ready for Reels, Shorts and LinkedIn.
 
 ```bash
-npx github:swapagrawal14/rigpop-agents init reel.md      # starter script
-npx github:swapagrawal14/rigpop-agents render reel.md     # -> reel.mp4
+npx rigpop-agents init reel.md      # starter script
+npx rigpop-agents render reel.md     # -> reel.mp4
 ```
 
 ## ✍️ The script
@@ -78,7 +78,7 @@ mkdir -p .claude/skills && cp -r node_modules/rigpop-agents/skills/rigpop .claud
 ```json
 {
   "mcpServers": {
-    "rigpop": { "command": "npx", "args": ["-y", "github:swapagrawal14/rigpop-agents", "mcp"] }
+    "rigpop": { "command": "npx", "args": ["-y", "rigpop-agents", "mcp"] }
   }
 }
 ```
@@ -123,6 +123,5 @@ Free Microsoft Edge neural voices, 400+ across languages. Some picks: `en-IN-Nee
 - Hindi/Hinglish auto-gesture words in scripts
 - Camera moves (zoom on the speaker, cuts)
 - Scene changes and props mid-script
-- `npm` release (`npx rigpop-agents`)
 
 Made by [Swapnil Agrawal](https://github.com/swapagrawal14). Characters and engine from [Rigpop Talk](https://github.com/swapagrawal14/rigpop-talk). MIT licensed.
