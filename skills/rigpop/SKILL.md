@@ -85,3 +85,6 @@ poses list) plus `<name>_base.png`, `<name>_A.png`, `<name>_O.png`, `<name>_E.pn
 - Hook in line 1, a twist or payoff by the end, a sign-off line.
 - 4 to 14 words per line reads best as captions.
 - Alternate speakers; vary moods; put a gesture on punchlines.
+
+## Animation rule: pose first, motion second
+Gestures must come from fully drawn character poses (the bundled pose pictures, or new pose packs generated with the same style and model sheet). Motion is only the smooth, eased travel between poses: anticipation, a held key, overshoot and settle, with blinks and lip-sync on top. Never fake a gesture by swinging puppet limbs, never show shoulder or joint caps, and never hard-pop between very different poses. Full rules: https://github.com/swapagrawal14/rigpop-motion/blob/main/AGENTS.md
