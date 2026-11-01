@@ -1,0 +1,55 @@
+{
+  "name": "rigpop-agents",
+  "version": "0.1.0",
+  "description": "Scripts in, talking doodle videos out. A CLI + MCP server + agent skill that renders voiced, lip-synced, captioned MP4s.",
+  "main": "src/render.js",
+  "scripts": {
+    "demo": "node bin/rigpop.js render examples/doctors-orders.md -o examples/doctors-orders.mp4",
+    "test": "node bin/rigpop.js check examples/doctors-orders.md && node bin/rigpop.js render examples/doctors-orders.md -o /tmp/rigpop-test.mp4 --silent --fast --quiet"
+  },
+  "keywords": [
+    "mcp",
+    "agent",
+    "claude-code",
+    "video",
+    "tts",
+    "lip-sync",
+    "animation",
+    "doodle",
+    "reels",
+    "cli"
+  ],
+  "author": "Swapnil Agrawal",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@napi-rs/canvas": "^1.1.0",
+    "ffmpeg-static": "^5.3.0",
+    "msedge-tts": "^2.1.1",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "type": "module",
+  "bin": {
+    "rigpop": "bin/rigpop.js",
+    "rigpop-agents": "bin/rigpop.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "characters",
+    "fonts",
+    "skills",
+    "examples"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swapagrawal14/rigpop-agents"
+  }
+}

@@ -1,0 +1,274 @@
+{
+ "doodle-swapnil": {
+  "file": "kdswapnil",
+  "name": "Swapnil",
+  "description": "Soft doodle girl in scrubs, 4 gestures",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "pitch": "+0Hz",
+  "w": 720,
+  "h": 936,
+  "patches": {
+   "blink": {
+    "x": 284,
+    "y": 149,
+    "w": 153,
+    "h": 53
+   },
+   "A": {
+    "x": 322,
+    "y": 204,
+    "w": 79,
+    "h": 79
+   },
+   "O": {
+    "x": 326,
+    "y": 212,
+    "w": 74,
+    "h": 58
+   },
+   "E": {
+    "x": 311,
+    "y": 205,
+    "w": 102,
+    "h": 64
+   }
+  },
+  "poses": [
+   "wave",
+   "point",
+   "open",
+   "thumbs"
+  ]
+ },
+ "aarav": {
+  "file": "kdaarav",
+  "name": "Aarav",
+  "description": "Soft doodle boy in a hoodie, 4 gestures",
+  "voice": "en-IN-PrabhatNeural",
+  "pitch": "+18Hz",
+  "w": 720,
+  "h": 1072,
+  "patches": {
+   "blink": {
+    "x": 275,
+    "y": 232,
+    "w": 175,
+    "h": 57
+   },
+   "A": {
+    "x": 309,
+    "y": 292,
+    "w": 109,
+    "h": 92
+   },
+   "O": {
+    "x": 320,
+    "y": 301,
+    "w": 88,
+    "h": 64
+   },
+   "E": {
+    "x": 299,
+    "y": 293,
+    "w": 127,
+    "h": 81
+   }
+  },
+  "poses": [
+   "wave",
+   "point",
+   "open",
+   "thumbs"
+  ]
+ },
+ "biscuit": {
+  "file": "kdbiscuit",
+  "name": "Biscuit",
+  "description": "Doodle tabby cat, 4 gestures",
+  "voice": "en-US-AnaNeural",
+  "pitch": "+10Hz",
+  "w": 720,
+  "h": 713,
+  "patches": {
+   "blink": {
+    "x": 269,
+    "y": 142,
+    "w": 188,
+    "h": 55
+   },
+   "A": {
+    "x": 307,
+    "y": 190,
+    "w": 111,
+    "h": 106
+   },
+   "O": {
+    "x": 317,
+    "y": 191,
+    "w": 92,
+    "h": 78
+   },
+   "E": {
+    "x": 285,
+    "y": 184,
+    "w": 155,
+    "h": 86
+   }
+  },
+  "poses": [
+   "wave",
+   "point",
+   "open",
+   "thumbs"
+  ]
+ },
+ "dr-swapnil": {
+  "file": "drswapnil",
+  "name": "Dr. Swapnil",
+  "description": "Blue-ink comic dentist in scrubs, 4 gestures",
+  "voice": "en-IN-NeerjaNeural",
+  "pitch": "+0Hz",
+  "w": 720,
+  "h": 964,
+  "patches": {
+   "A": {
+    "x": 277,
+    "y": 310,
+    "w": 166,
+    "h": 84
+   },
+   "O": {
+    "x": 316,
+    "y": 310,
+    "w": 95,
+    "h": 70
+   },
+   "E": {
+    "x": 302,
+    "y": 306,
+    "w": 113,
+    "h": 75
+   },
+   "blink": {
+    "x": 278,
+    "y": 240,
+    "w": 161,
+    "h": 59
+   }
+  },
+  "poses": [
+   "wave",
+   "point",
+   "open",
+   "thumbs"
+  ]
+ },
+ "swapnil-classic": {
+  "file": "swapnil",
+  "name": "Swapnil",
+  "description": "Original Rigpop Swapnil, talking head",
+  "voice": "en-IN-NeerjaNeural",
+  "pitch": "+0Hz",
+  "w": 614,
+  "h": 719,
+  "patches": {
+   "A": {
+    "x": 180,
+    "y": 297,
+    "w": 248,
+    "h": 144
+   },
+   "O": {
+    "x": 244,
+    "y": 299,
+    "w": 134,
+    "h": 93
+   },
+   "E": {
+    "x": 218,
+    "y": 283,
+    "w": 174,
+    "h": 104
+   },
+   "blink": {
+    "x": 188,
+    "y": 190,
+    "w": 230,
+    "h": 78
+   }
+  },
+  "poses": []
+ },
+ "mochi": {
+  "file": "mochi",
+  "name": "Mochi",
+  "description": "Mochi blob, talking head",
+  "voice": "en-US-AnaNeural",
+  "pitch": "+0Hz",
+  "w": 460,
+  "h": 669,
+  "patches": {
+   "A": {
+    "x": 168,
+    "y": 261,
+    "w": 124,
+    "h": 135
+   },
+   "O": {
+    "x": 175,
+    "y": 254,
+    "w": 110,
+    "h": 94
+   },
+   "E": {
+    "x": 163,
+    "y": 261,
+    "w": 135,
+    "h": 75
+   },
+   "blink": {
+    "x": 94,
+    "y": 225,
+    "w": 274,
+    "h": 80
+   }
+  },
+  "poses": []
+ },
+ "froggo": {
+  "file": "froggo",
+  "name": "Froggo",
+  "description": "Frog, talking head",
+  "voice": "en-GB-RyanNeural",
+  "pitch": "-5Hz",
+  "w": 521,
+  "h": 642,
+  "patches": {
+   "A": {
+    "x": 104,
+    "y": 237,
+    "w": 303,
+    "h": 161
+   },
+   "O": {
+    "x": 104,
+    "y": 237,
+    "w": 303,
+    "h": 103
+   },
+   "E": {
+    "x": 94,
+    "y": 229,
+    "w": 326,
+    "h": 131
+   },
+   "blink": {
+    "x": 93,
+    "y": 138,
+    "w": 324,
+    "h": 107
+   }
+  },
+  "poses": []
+ }
+}
